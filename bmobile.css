@@ -1,9 +1,9 @@
 body {
-	background-image:url("c/logo.png");
+	background-image:url("c/logot.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size:20%;
-	background-position:44% 36%;
+	background-size:40%;
+	background-position:50% 50%;
 	font-family: courier;
 	font-size: 90%;
 }
@@ -28,6 +28,19 @@ a.cabeca:hover {
   background-color: pink;
   text-decoration: overline;
 }
+a.cabeca:visited {
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: overline;
+}
+a.cabeca:active {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  background-color: pink;
+  text-decoration: overline;
+}
 
 
 a.email:link {
@@ -42,24 +55,30 @@ a.email:hover {
 	font-style: italic;
 	text-decoration: none;
 }
+a.email:visited {
+	color: black;
+	background-color: transparent;
+	border-bottom: 2px solid pink;
+	text-decoration: none;
+}
+a.email:active {
+	color: black;
+	background-color: pink;
+	font-style: italic;
+	text-decoration: none;
+}
 
 p.sobre {
-	margin-top: 0em;
-	margin-bottom: 0em;
-	margin-left: 7em;
-	margin-right: 7em;
+	margin:30px;
 }
 
 p.email {
-	margin-top: 11em;
-	margin-bottom: 3em;
-	margin-left: 10em;
-	margin-right: 1em;
+	margin:89px;
 }
 
 .cabeca {
-	width:50%;
+	width:80%;
 }
 img {
-	width:60%;
+	width:30%;
 }
