@@ -2,8 +2,8 @@ body {
 	background-image:url("c/logo.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size:25%;
-	background-position:30% 30%;
+	background-size:20%;
+	background-position:44% 36%;
 	font-family: courier;
 	font-size: 90%;
 }
@@ -58,7 +58,7 @@ p.email {
 }
 
 .cabeca {
-	width:70%;
+	width:50%;
 }
 img {
 	width:60%;
