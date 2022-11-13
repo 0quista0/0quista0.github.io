@@ -1,0 +1,68 @@
+body {
+	background-image:url("c/logo.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:10%;
+	background-position:30% 30%;
+	font-family: courier;
+	font-size: 90%;
+}
+
+h2 {
+	color: #E60965;
+}
+
+a.cabeca:link {
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: overline;
+}
+a.cabeca:hover {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  background-color: pink;
+  text-decoration: overline;
+}
+
+
+a.email:link {
+	color: black;
+	background-color: transparent;
+	border-bottom: 2px solid pink;
+	text-decoration: none;
+}
+a.email:hover {
+	color: black;
+	background-color: pink;
+	font-style: italic;
+	text-decoration: none;
+}
+
+p.sobre {
+	margin-top: 8em;
+	margin-bottom: 3em;
+	margin-left: 10em;
+	margin-right: 1em;
+}
+
+p.email {
+	margin-top: 11em;
+	margin-bottom: 3em;
+	margin-left: 32em;
+	margin-right: 1em;
+}
+
+.cabeca {
+	width:20%;
+}
+img {
+	width:15%;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  img {
+    width: 80%;
+  }
+}
