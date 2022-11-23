@@ -1,0 +1,109 @@
+body {
+	background-color: FloralWhite;
+	background-image:url("c/logoqu.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:15%;
+	background-position:50% 50%;
+	font-family: courier;
+	font-size: 100%;
+}
+header {
+}
+
+ul{
+	opacity: 1;
+	position: fixed;
+	top: 0px;
+	width: 370px;
+	margin:0px -185px -185px 0;
+	padding:15px 0 15px;
+	list-style-type: none;
+	text-align: center;
+	border-bottom: 2px solid #E60965;
+	background-color:FloralWhite;
+}
+ul li{
+	display: inline-block;
+	padding: 0px 15px 0px;
+}
+
+main{
+	margin-top: 100px;
+}
+h1 { color: white
+}
+h2 {
+	color: #E60965;
+}
+
+a.cabeca:link {
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.cabeca:hover {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  background-color: pink;
+  text-decoration: none;
+}
+a.cabeca:visited {
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.cabeca:active {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  background-color: pink;
+}
+
+
+a.email:link {
+	color: black;
+	background-color: transparent;
+	border-bottom: 2px solid pink;
+	text-decoration: none;
+}
+a.email:hover {
+	color: black;
+	background-color: pink;
+	font-style: italic;
+	text-decoration: none;
+}
+a.email:visited {
+	color: black;
+	background-color: transparent;
+	border-bottom: 2px solid pink;
+	text-decoration: none;
+}
+a.email:active {
+	color: black;
+	background-color: pink;
+	font-style: italic;
+	text-decoration: none;
+}
+
+p.sobre {
+	padding: 0 500px 0;
+}
+
+p.email {
+	margin-top: 20em;
+	margin-bottom: 3em;
+	margin-left: 10em;
+	margin-right: 10em;
+}
+
+.cabeca {
+	width:20%;
+}
+img {
+	width:15%;
+}
+
